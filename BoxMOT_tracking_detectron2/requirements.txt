@@ -1,0 +1,25 @@
+# BoxMOT Tracking với Detectron2 Requirements
+
+# Core dependencies
+opencv-python>=4.5.0
+numpy>=1.19.0
+tqdm>=4.60.0
+
+# BoxMOT tracking library
+boxmot>=10.0.0
+
+# Detectron2 (should be installed separately)
+# Follow Detectron2 installation guide:
+# https://github.com/facebookresearch/detectron2/blob/main/INSTALL.md
+# 
+# For CUDA 11.x:
+# python -m pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu111/torch1.9/index.html
+#
+# Or build from source:
+# git clone https://github.com/facebookresearch/detectron2.git
+# cd detectron2
+# pip install -e .
+
+# PyTorch (required by Detectron2)
+# torch>=1.8.0
+# torchvision>=0.9.0
